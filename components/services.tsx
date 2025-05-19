@@ -1,37 +1,37 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Heart, Activity, Stethoscope, Microscope, Brain, UserCheck } from "lucide-react"
+import { Heart, Activity, Stethoscope, Microscope, Brain, UserCheck, UserRound, HandHeart, LucideHandHeart, HeartPulse, Baby, NotebookPen, Speech } from "lucide-react"
 
 export function Services() {
   const services = [
     {
-      icon: <Stethoscope className="h-10 w-10 text-green-500" />,
-      title: "Consultas Médicas",
-      description: "Atendimento com especialistas em diversas áreas da medicina para diagnóstico e tratamento.",
+      icon: <UserRound className="h-10 w-10 text-green-500" />,
+      title: "Psicoterapia individual",
+      description: "Atendimento personalizado e individual com o objetivo de promover autoconhecimento e fortalecimento emocional.",
     },
     {
-      icon: <Microscope className="h-10 w-10 text-blue-500" />,
-      title: "Exames Laboratoriais",
-      description: "Realizamos diversos tipos de exames com resultados rápidos e precisos.",
+      icon: <HandHeart className="h-10 w-10 text-blue-500" />,
+      title: "Casal e família",
+      description: "A terapia de casal e família busca aprimorar a comunicação e resolver conflitos, fortalecendo os vínculos entre os participantes.",
     },
     {
-      icon: <Heart className="h-10 w-10 text-green-500" />,
-      title: "Cardiologia",
-      description: "Avaliação, diagnóstico e tratamento de doenças relacionadas ao coração.",
+      icon: <Baby className="h-10 w-10 text-green-500" />,
+      title: "Infantil e Adolescente",
+      description: "Um espaço acolhedor e seguro para crianças a partir dos 5 anos e adolescentes, focado no desenvolvimento emocional, social e comportamental.",
     },
     {
-      icon: <Brain className="h-10 w-10 text-blue-500" />,
-      title: "Neurologia",
-      description: "Especialistas no diagnóstico e tratamento de doenças do sistema nervoso.",
+      icon: <NotebookPen className="h-10 w-10 text-blue-500" />,
+      title: "Relacionamentos Pessoais e Profissionais",
+      description: "Essa especialidade explora os desafios nas relações interpessoais, ajudando a identificar padrões de comportamento que dificultam conexões saudáveis.",
     },
     {
-      icon: <Activity className="h-10 w-10 text-green-500" />,
-      title: "Fisioterapia",
-      description: "Reabilitação física com técnicas modernas e equipamentos de última geração.",
+      icon: <Brain className="h-10 w-10 text-green-500" />,
+      title: "Psicanálise",
+      description: "A psicanálise visa acessar profundos comportamentos e emoçoes, ajudando a transformar padrões inconscientes e a promover mudanças significativas na vida emocional",
     },
     {
-      icon: <UserCheck className="h-10 w-10 text-blue-500" />,
-      title: "Check-up Completo",
-      description: "Avaliação completa da sua saúde para prevenção e diagnóstico precoce.",
+      icon: <Speech className="h-10 w-10 text-blue-500" />,
+      title: "Fonoaudióloga",
+      description: "A psicanálise visa acessar profundos comportamentos e emoçoes, ajudando a transformar padrões inconscientes e a promover mudanças significativas na vida emocional.",
     },
   ]
 

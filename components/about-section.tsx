@@ -17,8 +17,7 @@ export function AboutSection() {
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-blue-600">Sobre a Inova Saúde</h2>
             <p className="text-gray-600">
-              A Inova Saúde Clínica nasceu com o propósito de oferecer serviços de saúde de alta qualidade, combinando
-              tecnologia avançada com atendimento humanizado. Nossa equipe é formada por profissionais altamente
+              A Inova Saúde Clínica nasceu com o propósito de oferecer serviços de alta qualidade, com atendimento humanizado. Nossa equipe é formada por profissionais altamente
               qualificados e comprometidos com o bem-estar dos pacientes.
             </p>
             <p className="text-gray-600">
@@ -32,10 +31,10 @@ export function AboutSection() {
               </div>
               <div className="bg-blue-50 p-4 rounded-lg">
                 <h3 className="font-bold text-blue-600 text-xl mb-2">Visão</h3>
-                <p className="text-gray-600">Ser referência em atendimento e inovação na área da saúde.</p>
+                <p className="text-gray-600">Ser referência em atendimento e inovação promovendo transformações que unem corpo, mente e comunicação.</p>
               </div>
             </div>
-            <Button className="bg-blue-500 hover:bg-blue-600 text-white">Conheça Nossa História</Button>
+
           </div>
         </div>
       </div>

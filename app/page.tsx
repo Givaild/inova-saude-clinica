@@ -22,7 +22,7 @@ export default function Home() {
                 Cuidando da sua saúde com excelência
               </h1>
               <p className="text-lg md:text-xl text-gray-600">
-                Na Inova Saúde Clínica, oferecemos tratamentos personalizados com profissionais qualificados para
+                Na Clínica Inova Saúde, oferecemos tratamentos personalizados com profissionais qualificados para
                 garantir seu bem-estar.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -55,7 +55,7 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="font-medium text-gray-800">Telefone</h3>
-                <p className="text-blue-600">(11) 9999-9999</p>
+                <p className="text-blue-600">(19) 981985048</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -64,7 +64,7 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="font-medium text-gray-800">Email</h3>
-                <p className="text-blue-600">contato@inovasaude.com</p>
+                <p className="text-blue-600">clinicainovasaude@hotmail.com</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -73,7 +73,7 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="font-medium text-gray-800">Endereço</h3>
-                <p className="text-blue-600">Av. Principal, 123 - Centro</p>
+                <p className="text-blue-600">Rua. Olegário Bueno da Silva,130 - Lot. Remanso Campineiro, Hortolândia-SP</p>
               </div>
             </div>
           </div>
