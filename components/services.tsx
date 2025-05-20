@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Heart, Activity, Stethoscope, Microscope, Brain, UserCheck, UserRound, HandHeart, LucideHandHeart, HeartPulse, Baby, NotebookPen, Speech } from "lucide-react"
+import { UserRound, HandHeart, Baby, NotebookPen, Speech, Dumbbell } from "lucide-react"
 
 export function Services() {
   const services = [
@@ -24,14 +24,13 @@ export function Services() {
       description: "Essa especialidade explora os desafios nas relações interpessoais, ajudando a identificar padrões de comportamento que dificultam conexões saudáveis.",
     },
     {
-      icon: <Brain className="h-10 w-10 text-green-500" />,
-      title: "Psicanálise",
-      description: "A psicanálise visa acessar profundos comportamentos e emoçoes, ajudando a transformar padrões inconscientes e a promover mudanças significativas na vida emocional",
-    },
-    {
-      icon: <Speech className="h-10 w-10 text-blue-500" />,
+      icon: <Speech className="h-10 w-10 text-green-500" />,
       title: "Fonoaudióloga",
-      description: "A psicanálise visa acessar profundos comportamentos e emoçoes, ajudando a transformar padrões inconscientes e a promover mudanças significativas na vida emocional.",
+      description: "Avaliação e tratamento de comunicação oral, voz, audição, motricidade orofacial e deglutição, com abordagem personalizada.",
+    }, {
+      icon: <Dumbbell className="h-10 w-10 text-blue-500" />,
+      title: "Pilates",
+      description: "Método de exercícios que melhora postura, flexibilidade, força e consciência corporal, aliando respiração e movimento para prevenção e reabilitação.",
     },
   ]
 

@@ -4,24 +4,24 @@ import { Star } from "lucide-react"
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Maria Silva",
+      name: "Bruna Evangelista Oliveira",
       role: "Paciente",
       content:
-        "Excelente atendimento! Os profissionais são muito atenciosos e o ambiente é acolhedor. Recomendo a todos que buscam um serviço de qualidade.",
+        "Clinica aconchegante, com profissionais maravilhosas carinhosas e acolhedoras, todos muito preparados para receber os pacientes e seus familiares, sempre com empatia e dedicação, é lindo de ver!",
       rating: 5,
     },
     {
-      name: "João Santos",
+      name: "Camila Sávio",
       role: "Paciente",
       content:
-        "Fiz tratamento na clínica e fiquei muito satisfeito com os resultados. A equipe é muito profissional e o atendimento é personalizado.",
+        "Ambiente acolhedor, terapia ocupacional e psicológica de primera classe! Espaço para a discussão multidisciplinar, projeto terapêutico singular padrão ouro... recomendo!",
       rating: 5,
     },
     {
-      name: "Ana Oliveira",
+      name: "Rosangela Castilho",
       role: "Paciente",
       content:
-        "Atendimento humanizado e de alta qualidade. Os médicos são muito competentes e explicam tudo detalhadamente. Me senti muito bem cuidada.",
+        "A clínica têm excelentes profissionais, inclusive a Psicóloga Nágila desempenha um excelente trabalho com os seus pacientes.",
       rating: 5,
     },
   ]

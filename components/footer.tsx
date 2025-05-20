@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Instagram, Facebook, Twitter, Linkedin, Mail, Phone } from "lucide-react"
+import { Instagram, Facebook, Twitter, Linkedin, Mail, Phone, MapPin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -14,23 +14,18 @@ export function Footer() {
                 alt="Inova Saúde Clínica"
                 width={180}
                 height={60}
-                className="h-12 w-auto bg-white rounded-md p-1"
+                className="bg-white rounded-md p-1"
               />
             </Link>
-            <p className="text-blue-100">Cuidando da sua saúde com excelência e tecnologia avançada.</p>
+            <p className="text-blue-100">Cuidando da sua saúde com excelência.</p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-white hover:text-green-300">
+              <Link href="https://www.instagram.com/inovasaudeclinica/" target="_blanck" className="text-white hover:text-green-300">
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-white hover:text-green-300">
+              <Link href="https://www.facebook.com/profile.php?id=61558432790281&locale=pt_BR" target="_blanck" className="text-white hover:text-green-300">
                 <Facebook className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-white hover:text-green-300">
-                <Twitter className="h-5 w-5" />
-              </Link>
-              <Link href="#" className="text-white hover:text-green-300">
-                <Linkedin className="h-5 w-5" />
-              </Link>
+
             </div>
           </div>
 
@@ -43,23 +38,13 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/sobre" className="text-blue-100 hover:text-white">
+                <Link href="#sobre" className="text-blue-100 hover:text-white">
                   Sobre Nós
                 </Link>
               </li>
               <li>
-                <Link href="/servicos" className="text-blue-100 hover:text-white">
+                <Link href="#servicos" className="text-blue-100 hover:text-white">
                   Serviços
-                </Link>
-              </li>
-              <li>
-                <Link href="/equipe" className="text-blue-100 hover:text-white">
-                  Nossa Equipe
-                </Link>
-              </li>
-              <li>
-                <Link href="/contato" className="text-blue-100 hover:text-white">
-                  Contato
                 </Link>
               </li>
             </ul>
@@ -69,28 +54,18 @@ export function Footer() {
             <h3 className="text-lg font-bold mb-4 text-green-300">Serviços</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/servicos/consultas" className="text-blue-100 hover:text-white">
-                  Consultas Médicas
+                <Link href="#servicos" className="text-blue-100 hover:text-white">
+                  Psicoterapia
                 </Link>
               </li>
               <li>
-                <Link href="/servicos/exames" className="text-blue-100 hover:text-white">
-                  Exames Laboratoriais
+                <Link href="#servicos" className="text-blue-100 hover:text-white">
+                  Fonoaudiólogia
                 </Link>
               </li>
               <li>
-                <Link href="/servicos/cardiologia" className="text-blue-100 hover:text-white">
-                  Cardiologia
-                </Link>
-              </li>
-              <li>
-                <Link href="/servicos/neurologia" className="text-blue-100 hover:text-white">
-                  Neurologia
-                </Link>
-              </li>
-              <li>
-                <Link href="/servicos/fisioterapia" className="text-blue-100 hover:text-white">
-                  Fisioterapia
+                <Link href="#servicos" className="text-blue-100 hover:text-white">
+                  Pilates
                 </Link>
               </li>
             </ul>
@@ -101,34 +76,32 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-2 text-green-300 flex-shrink-0 mt-0.5" />
-                <span>(11) 9999-9999</span>
+                <a
+                  href="https://wa.me/5519981985048?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta"
+                  target="_blank"
+                  className="flex items-center gap-2 text-blue-100 hover:text-white"
+                >
+                  (19) 98198-5048
+                </a>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-2 text-green-300 flex-shrink-0 mt-0.5" />
-                <span>contato@inovasaude.com</span>
+                <a
+                  href="mailto:clinicainovasaude@hotmail.com"
+                  className="text-blue-100 hover:text-white"
+                >
+                  clinicainovasaude@hotmail.com
+                </a>
               </li>
               <li className="flex items-start">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 mr-2 text-green-300 flex-shrink-0 mt-0.5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
+                <MapPin className="h-5 w-5 mr-2 text-green-300 flex-shrink-0 mt-0.5" />
+                <a href="https://www.google.com/maps/place/Cl%C3%ADnica+INOVA+SA%C3%9ADE/@-22.8701518,-47.2111027,21z/data=!4m14!1m5!8m4!1e2!2s104670431304285629258!3m1!1e1!3m7!1s0x94c8b9549a3d0fb3:0x89bbd13acff7dd98!8m2!3d-22.8701032!4d-47.2110073!9m1!1b1!16s%2Fg%2F11w3f98bgk?entry=ttu&g_ep=EgoyMDI1MDUxNS4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-100 hover:text-white"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                  />
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                  />
-                </svg>
-                <span>Av. Principal, 123 - Centro, São Paulo - SP, 01234-567</span>
+                  Rua. Olegário Bueno da Silva, 130 - Lot. Remanso Campineiro, Hortolândia-SP
+                </a>
               </li>
             </ul>
           </div>

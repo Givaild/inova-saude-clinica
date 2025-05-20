@@ -36,43 +36,38 @@ export function Header() {
               <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                 <div className="py-1">
                   <Link
-                    href=""
+                    href="#servicos"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600"
                   >
                     Psicoterapia individual
                   </Link>
                   <Link
-                    href=""
+                    href="#servicos"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600"
                   >
                     Casal e família
                   </Link>
                   <Link
-                    href=""
+                    href="#servicos"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600"
                   >
                     Infantil e Adolescente
                   </Link>
                   <Link
-                    href=""
+                    href="#servicos"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600"
                   >
                     Relacionamentos Pessoais e Profissionais
                   </Link>
+
                   <Link
-                    href=""
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600"
-                  >
-                    Psicanálise
-                  </Link>
-                  <Link
-                    href=""
+                    href="#servicos"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600"
                   >
                     Fonoaudiólogia
                   </Link>
                   <Link
-                    href=""
+                    href="#servicos"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600"
                   >
                     Pilates
@@ -80,19 +75,18 @@ export function Header() {
                 </div>
               </div>
             </div>
-            <Link href="" className="text-gray-700 hover:text-blue-600 font-medium">
+            <Link href="#sobre" className="text-gray-700 hover:text-blue-600 font-medium">
               Sobre Nós
             </Link>
-            <Link href="" className="text-gray-700 hover:text-blue-600 font-medium">
-              Nossa Equipe
-            </Link>
-            <Link href="" className="text-gray-700 hover:text-blue-600 font-medium">
-              Contato
-            </Link>
+
+
           </nav>
 
           <div className="hidden md:flex">
-            <Button className="bg-green-500 hover:bg-green-600 text-white">Agendar Consulta</Button>
+            <Link href="https://wa.me/5519981985048?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" >
+              <Button className="bg-green-500 hover:bg-green-600 text-white">
+                Agendar Consulta</Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -132,49 +126,49 @@ export function Header() {
               )}
             >
               <Link
-                href=""
+                href="#servicos"
                 className="block py-2 text-gray-600 hover:text-green-600"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Psicoterapia individual
               </Link>
               <Link
-                href=""
+                href="#servicos"
                 className="block py-2 text-gray-600 hover:text-green-600"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Casal e família
               </Link>
               <Link
-                href=""
+                href="#servico"
                 className="block py-2 text-gray-600 hover:text-green-600"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Infantil e Adolescente
               </Link>
               <Link
-                href=""
+                href="#servicos"
                 className="block py-2 text-gray-600 hover:text-green-600"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Relacionamentos Pessoais e Profissionais
               </Link>
               <Link
-                href=""
+                href="#servicos"
                 className="block py-2 text-gray-600 hover:text-green-600"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Psicanálise
               </Link>
               <Link
-                href=""
+                href="#servicos"
                 className="block py-2 text-gray-600 hover:text-green-600"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Fonoaudióloga
               </Link>
               <Link
-                href=""
+                href="#servicos"
                 className="block py-2 text-gray-600 hover:text-green-600"
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -183,32 +177,20 @@ export function Header() {
             </div>
           </div>
           <Link
-            href=""
+            href="#sobre"
             className="block py-2 text-gray-700 hover:text-blue-600 font-medium"
             onClick={() => setMobileMenuOpen(false)}
           >
             Sobre Nós
           </Link>
-          <Link
-            href=""
-            className="block py-2 text-gray-700 hover:text-blue-600 font-medium"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Nossa Equipe
+          <Link href="https://wa.me/5519981985048?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" >
+            <Button
+              className="w-full bg-green-500 hover:bg-green-600 text-white"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Agendar Consulta
+            </Button>
           </Link>
-          <Link
-            href=""
-            className="block py-2 text-gray-700 hover:text-blue-600 font-medium"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Contato
-          </Link>
-          <Button
-            className="w-full bg-green-500 hover:bg-green-600 text-white"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Agendar Consulta
-          </Button>
         </div>
       </div>
     </header>

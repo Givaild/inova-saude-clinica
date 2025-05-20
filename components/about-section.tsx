@@ -8,7 +8,7 @@ export function AboutSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/foto2.jpg"
               alt="Sobre a Inova Saúde"
               fill
               className="object-cover"
